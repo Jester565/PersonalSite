@@ -1,12 +1,4 @@
-.parallax-mirror {
-  z-index:1
-}
 
-.hiking {
-  width: 100%;
-  height: 600px;
-  object-fit: cover;
-}
 
 .yearHeader {
   color: white;
@@ -15,12 +7,16 @@
   padding-bottom: 100px;
 }
 
+.bigMargin {
+  margin-left: 30%;
+}
+
 .autocomplete {
   color: white;
 }
 
-.card-title {
-  color: black !important; 
+#searchResults {
+  height: auto;
 }
 
 .cardButton {
@@ -72,23 +68,31 @@
   color: white;
 }
 
-.cardTitle {
-  background-color: #000000 !important;
-  padding: 3px;
-}
-
-.card-title {
-  background-color: #000000 !important;
-  color: white !important;
-  padding: 3px !important;
-}
-
 img {
   opacity: 0.4;
 }
 
 .cardImage {
   opacity: 1 !important;
+  height: 120px;
+  object-fit: cover;
+}
+
+.cardNoImage {
+  opacity: 1 !important;
+  height: 60px;
+  object-fit: cover;
+}
+
+.cardImageTitle {
+  background-color: #000000 !important;
+  color: white !important;
+  padding: 3px !important;
+}
+
+.cardNoImageTitle {
+  color: black !important;
+  padding: 3px !important;
 }
 
 html, body {
@@ -320,11 +324,6 @@ a:hover, a:active, a:focus {
   margin-left: 20px;
 }
 
-.timeline-img-parkhero {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("../imgs/parkhero.png") center center no-repeat;
-  margin: 5px;
-  background-size: cover;
-}
 .timeline-img-sim {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("../imgs/circles.png") center center no-repeat;
   margin: 5px;
@@ -374,6 +373,8 @@ a:hover, a:active, a:focus {
 }
 
 .timeline-img-header {
+  margin: 5px;
+  background-size: cover;
   height: 200px;
   position: relative;
   margin-bottom: 20px;

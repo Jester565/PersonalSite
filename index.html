@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Vertical Timeline</title>
+  <title>Alex Craig</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="./imgs/favicon.png">
 
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
@@ -44,7 +45,7 @@
     <div class="col s4 m4">
       <p class="center-align">
         <label>
-          <input type="checkbox" checked="checked" />
+          <input id="education" class="categoryCheck" type="checkbox" />
           <span>Education</span>
         </label>
       </p>
@@ -52,7 +53,7 @@
     <div class="col s4 m4">
       <p class="center-align">
         <label>
-          <input type="checkbox" checked="checked" />
+          <input id="work" class="categoryCheck" type="checkbox" />
           <span>Work Experience</span>
         </label>
       </p>
@@ -60,333 +61,16 @@
     <div class="col s4 m4"></div>
     <p class="center-align">
       <label>
-        <input type="checkbox" checked="checked" />
+        <input id="project" class="categoryCheck" type="checkbox" />
         <span>Projects</span>
       </label>
     </p>
   </div>
-  </div>
-  <div class="row">
-    <div class="col s4 m3">
-      <div class="card">
-        <div class="card-image">
-          <img src="./imgs/circles.png">
-          <span class="card-title">Packing Dens...</span>
-        </div>
-        <div class="card-content">
-          <p>CUDA increased simulation performance by 70x compared to the CPU-Based algorithm (hi megan, this only
-            shows up when you search for CUDA)</p>
-        </div>
-        <div class="card-action">
-          <a href="#" class="cardButton">Goto</a>
-          <a href="#" class="cardButton">More</a>
-        </div>
-      </div>
-    </div>
+  <div id="searchResults">
+
   </div>
   <section class="timeline">
-    <div>
-      <h1 class="yearHeader">Timeline</h1>
-    </div>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="./imgs/hiking.jpg" class="tinted">
-      <div class="container">
-        <div class="timeline-item">
-          <div class="timeline-img"></div>
-          <div class="timeline-content js--fadeInLeft">
-            <h2>CPP Student</h2>
-            <div class="endDate">ONGOING</div>
-            <p>GPA: 3.95<br />Class Highlights: Parallel Processing, Data Structures, Advanced Algorithms</p>
-            <a class="bnt-more" href="javascript:void(0)">More</a>
-            <div class="startDate">SEPT 2016</div>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-img">
-          </div>
-          <div class="timeline-content timeline-card js--fadeInRight">
-            <div class="timeline-img-header timeline-img-parkhero">
-              <h2 class="cardTitle">Park Hero</h2>
-            </div>
-            <div class="endDate">ONGOING</div>
-            <p>Android and WearOS Disneyland app that uses <b>machine learning</b> to rate wait times, allows users to share
-              photos and FastPasses,
-              and provides park schedules. The Kotlin frontend is powered by a <b>serverless</b> backend
-              utilizing <b>over a dozen cloud services.</b></p>.
-            <a class="bnt-more" href="javascript:void(0)">More</a>
-            <div class="startDate">SEPT 2017</div>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-img"></div>
-          <div class="timeline-content js--fadeInLeft">
-            <h2>Northrop Intern: Part 2</h2>
-            <div class="endDate">AUG 2018</div>
-            <p>Created a <b>C++</b> HTTPS server to provide real-time and historical hardware status to an <b>Angular</b>
-              frontend. The server
-              facilitated a fully-featured editor for creating <b>embedded Python</b> scripts that could communicate with
-              and derive data from the hardware.</p>
-            <a class="bnt-more" href="javascript:void(0)">More</a>
-            <div class="startDate">JUNE 2018</div>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-img">
-          </div>
-          <div class="timeline-content timeline-card js--fadeInRight">
-            <div class="timeline-img-header timeline-img-sim">
-              <h2 class="cardTitle">Packing Density Simulation</h2>
-            </div>
-            <div class="endDate">MARCH 2018</div>
-            <p>
-              Performs 2D and 3D packing density optimization for 3D printing particles.
-              The simulations, built with <b>CUDA</b>, can be executed and viewed in the <b>React.js</b> frontend
-              thanks to GPU instances, <b>NoSQL</b> databases, and queues from <b>AWS</b> and <b>GCP</b>.
-              <!--
-                      <br />
-                      <br />
-                      The simulation results were seen at "The 2018 Annual International Conference Additive Manufacturing & Powder Metallurgy" 
-                      in Don Kim's presentation titled "A Preliminary Study of Optimal Powder Size Distribution 
-                      for Powder Bed Additive Manufacturing Using High Performance Cloud Computing".
-                      -->
-            </p>
-            <a class="bnt-more" href="javascript:void(0)">More</a>
-            <div class="startDate">FEB 2018</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <h1 class="yearHeader">2017</h1>
-    </div>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="./imgs/plane.jpg" class="tinted">
-      <div class="container">
-        <div class="timeline-item">
-          <div class="timeline-img"></div>
-          <div class="timeline-content js--fadeInLeft">
-            <h2>Northrop Intern: Part 1</h2>
-            <div class="endDate">AUG 2018</div>
-            <p>Built a <b>Node.js</b> application to stream real-time data from a command & control program to an <b>Angular.js</b>
-              display.
-              Another Ruby project served as a data collector and enabled <b>analytics</b> with Kibana.
-              <br />
-              At the end of the summer, I presented our work to our upper management, which included an <b>Executive Vice
-                President</b>.
-            </p>
-            <a class="bnt-more" href="javascript:void(0)">More</a>
-            <div class="startDate">JUNE 2018</div>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-img">
-          </div>
-          <div class="timeline-content timeline-card js--fadeInRight">
-            <div class="timeline-img-header timeline-img-ngcp">
-              <h2 class="cardTitle">NG Collaboration Project</h2>
-            </div>
-            <div class="endDate">MAY 2017</div>
-            <p>
-              Worked with division to create a <b>C++</b> and <b>C#</b> library for drones to communicate with ground
-              stations.
-              I added a one-way pinging system, a message generator, and communication over HAM radio
-            </p>
-            <a class="bnt-more" href="javascript:void(0)">More</a>
-            <div class="startDate">NOV 2017</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <h1 class="yearHeader">2016</h1>
-    </div>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="./imgs/caladventure.jpg" class="tinted">
-      <div class="container">
-        <div class="timeline-item">
-          <div class="timeline-img">
-          </div>
-          <div class="timeline-content timeline-card js--fadeInLeft">
-            <div class="timeline-img-header timeline-img-alien">
-              <h2 class="cardTitle">Alien Game</h2>
-            </div>
-            <div class="endDate">NOV 2016</div>
-            <p>
-              I went beyond requirements of a group project to create a text-based game and built a graphical version.
-              This <b>Java</b> project (with no dependencies) is still used by the professor to scare new students.
-            </p>
-            <a class="bnt-more" href="javascript:void(0)">More</a>
-            <div class="startDate">OCT 2016</div>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-img">
-          </div>
-          <div class="timeline-content timeline-card js--fadeInRight">
-            <div class="timeline-img-header timeline-img-bevs">
-              <h2 class="cardTitle">BeachBevs</h2>
-            </div>
-            <div class="endDate">OCT 2016</div>
-            <p>
-              Customers order through a web app and their location and request are sent to employees in real-time.<br /><br />
-              This web app, powered by a <b>C++ WSS</b> backend, has a custom login and menu system.  It was also my first project to 
-              utilize databases and cloud services.
-            </p>
-            <a class="bnt-more" href="javascript:void(0)">More</a>
-            <div class="startDate">DEC 2015</div>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-img"></div>
-          <div class="timeline-content js--fadeInLeft">
-            <h2>Concurrent Enrollment</h2>
-            <div class="endDate">AUG 2016</div>
-            <p>
-              Took five computer science classes from three community colleges alongside my high school education.
-              <br />
-              <br />
-              Class Highlights: Datastructures & Algorithms (C++), SQL, Web Development
-            </p>
-            <a class="bnt-more" href="javascript:void(0)">More</a>
-            <div class="startDate">JUNE 2015</div>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-img">
-          </div>
-          <div class="timeline-content timeline-card js--fadeInRight">
-            <div class="timeline-img-header timeline-img-trop2">
-              <h2 class="cardTitle">Tropadom 2</h2>
-            </div>
-            <div class="endDate">AUG 2016</div>
-            <p>
-              A <b>C++</b> game featuring a multiplayer 2D world with caves and hills generated with Perlin noise. The game
-              utilizes <b>Google Protocol Buffers</b> and <b>Boost.Asio</b> to share world and player information.  A
-              self-made, <b>multithreaded</b> lighting system makes exploring caves much more atmospheric than previous
-              entries.
-            </p>
-            <a class="bnt-more" href="javascript:void(0)">More</a>
-            <div class="startDate">JUN 2015</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <h1 class="yearHeader">2015</h1>
-    </div>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="./imgs/starwars.jpg" class="tinted">
-      <div class="container">
-        <div class="timeline-item">
-          <div class="timeline-img"></div>
-          <div class="timeline-content js--fadeInLeft">
-            <h2>Computer Science AP Exam</h2>
-            <div class="endDate">APRIL 2015</div>
-            <p>
-              <b>Self-studied</b> and scored a 5 on the Computer Science AP Exam without any prior courses on the subject.
-            </p>
-            <a class="bnt-more" href="javascript:void(0)">More</a>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-img">
-          </div>
-          <div class="timeline-content timeline-card js--fadeInRight">
-            <div class="timeline-img-header timeline-img-battle">
-              <h2 class="cardTitle">Battleship</h2>
-            </div>
-            <div class="endDate">JUNE 2015</div>
-            <p>
-              Clients join a <b>TCP</b> and <b>UDP</b> server and invite each other to duel in a game of Battleship
-              modified to teach trigonometry concepts.
-              Players can use VOIP or a text communication system during their game. Both the server and client have no dependencies.
-            </p>
-            <a class="bnt-more" href="javascript:void(0)">More</a>
-            <div class="startDate">JAN 2015</div>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-img">
-          </div>
-          <div class="timeline-content timeline-card js--fadeInLeft">
-            <div class="timeline-img-header timeline-img-trop">
-              <h2 class="cardTitle">Tropadom</h2>
-            </div>
-            <div class="endDate">APRIL 2015</div>
-            <p>
-              Go from campfires eating your hunted chicken to creating a house filled with pistons, doors, and ladders
-              while your industrial machinery refines your ore. Craft, conquer, and explore this 1000x150
-              Minecraft-inspired world with 4 biomes with 3 weather patterns.
-              <br />
-              <br />
-              Tropadom was made with <b>Java</b>'s LibGDX framework.
-            </p>
-            <a class="bnt-more" href="javascript:void(0)">More</a>
-            <div class="startDate">AUG 2014</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
   </section>
-  <div>
-    <h1 class="yearHeader">More Projects</h1>
-  </div>
-  <div class="row">
-    <div class="col s4 m3">
-      <div class="card">
-        <div class="card-image">
-          <img class="cardImage" src="./imgs/stock.png">
-          <span class="card-title">Stock Stuff</span>
-        </div>
-        <div class="card-content">
-          <p><b>Serverless</b>, material web application that can evalutate and display the performance of rules against a stock's history and keep track of a user's performance.</p>
-        </div>
-        <div class="card-action">
-          <a href="#" class="cardButton">More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col s4 m3">
-      <div class="card">
-        <div class="card-image">
-          <img class="cardImage" src="./imgs/farmer.png">
-          <span class="card-title">Farmer Game</span>
-        </div>
-        <div class="card-content">
-          <p>Small <b>C++</b> platformer made in a weekend where you must neutralize evil potatos to reach an elevator going to the surface.  The project showcases the flexibility of my graphics, sound, and lighting libraries.</p>
-        </div>
-        <div class="card-action">
-          <a href="#" class="cardButton">More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col s4 m3">
-      <div class="card">
-        <div class="card-image">
-          <img class="cardImage" src="./imgs/ani.png">
-          <span class="card-title">AniCreate</span>
-        </div>
-        <div class="card-content">
-          <p>Uses <b>Java</b> with <b>FFMPEG</b> to position and rotate images to match capture colored points as they move between frames.</p>
-        </div>
-        <div class="card-action">
-          <a href="#" class="cardButton">More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col s4 m3">
-      <div class="card">
-        <div class="card-image">
-          <img class="cardImage" src="./imgs/conkagar.png">
-          <span class="card-title">Conkagar</span>
-        </div>
-        <div class="card-content">
-          <p>My first personal project featured crafting, fighting, and some building.  Creating it helped me learn Object-Oriented Programming and data structures.</p>
-        </div>
-        <div class="card-action">
-          <a href="#" class="cardButton">More</a>
-        </div>
-      </div>
-    </div>
-  </div>
 </body>
 
 </html>
