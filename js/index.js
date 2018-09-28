@@ -37,9 +37,7 @@ var sections =
 					photos and FastPasses,
 					and provides park schedules. The Kotlin front end is powered by a <b>serverless</b> back end
 					utilizing <b>over a dozen cloud services.</b>`,
-				"more": () => {
-					window.location.href = "https://github.com/Jester565/ParkHero/blob/master/README.md"
-				},
+				"more": "https://github.com/Jester565/ParkHero/blob/master/README.md",
 				"tech": {
 					"Cloud Services": {
 						"msg": null
@@ -145,6 +143,18 @@ var sections =
 					},
 					"REST": {
 						"msg": null
+					},
+					"Linux": {
+						"msg": null
+					},
+					"Cloud9": {
+						"msg": null
+					},
+					"Git": {
+						"msg": null
+					},
+					"GitHub": {
+						"msg": null
 					}
 				}
 			},
@@ -164,6 +174,9 @@ var sections =
 						"msg": null
 					},
 					"Asynchronous": {
+						"msg": null
+					},
+					"Angular": {
 						"msg": null
 					},
 					"Python": {
@@ -204,6 +217,18 @@ var sections =
 					},
 					"REST": {
 						"msg": null
+					},
+					"Linux": {
+						"msg": null
+					},
+					"Bitbucket": {
+						"msg": null
+					},
+					"Jira": {
+						"msg": null
+					},
+					"Git": {
+						"msg": null
 					}
 				}
 			},
@@ -216,9 +241,7 @@ var sections =
 				"description": `Performs 2D and 3D packing density optimization for 3D printing particles.
 				The simulations, built with <b>CUDA</b>, can be executed and viewed in the <b>React.js</b> front end
 				by utilizing GPU instances, <b>NoSQL</b> databases, and queues from <b>AWS</b> and <b>GCP</b>.`,
-				"more": () => {
-					window.location.href = "https://github.com/Jester565/PackingDensityOptimizer_Frontend/blob/master/README.md"
-				},
+				"more": "https://github.com/Jester565/PackingDensityOptimizer_Frontend/blob/master/README.md",
 				"tech": {
 					"CUDA": {
 						"msg": null
@@ -276,6 +299,18 @@ var sections =
 					},
 					"REST": {
 						"msg": null
+					},
+					"Visual Studio": {
+						"msg": null
+					},
+					"Linux": {
+						"msg": null
+					},
+					"Git": {
+						"msg": null
+					},
+					"GitHub": {
+						"msg": null
 					}
 				}
 			}
@@ -294,7 +329,7 @@ var sections =
 					display.
 					Also enabled <b>analytics</b> with Kibana by integrating a Ruby data collector.
 					<br />
-					At the end of the summer, I presented the work to a company <b>Vice President</b> and others in upper management.`,
+					At the end of the summer, I presented the work to a company <b>vice president</b> and others in upper management.`,
 				"tech": {
 					"JavaScript": {
 						"msg": null
@@ -340,6 +375,21 @@ var sections =
 					},
 					"Back End": {
 						"msg": null
+					},
+					"Linux": {
+						"msg": null
+					},
+					"Bitbucket": {
+						"msg": null
+					},
+					"Jira": {
+						"msg": null
+					},
+					"Ruby": {
+						"msg": null
+					},
+					"Git": {
+						"msg": null
 					}
 				}
 			},
@@ -352,9 +402,7 @@ var sections =
 				"description": `Worked with other students to create a <b>C++</b> and <b>C#</b> library for communication between drones and ground
 					stations.
 					I added a one-way pinging system, a message generator, and communication over HAM radio`,
-				"more": () => {
-					window.location.href = "https://github.com/MichaelWallace30/CommProtocol/blob/master/README.md"
-				},
+				"more": "https://github.com/MichaelWallace30/CommProtocol/blob/master/README.md",
 				"tech": {
 					"C++": {
 						"msg": null
@@ -379,6 +427,15 @@ var sections =
 					},
 					"Back End": {
 						"msg": null
+					},
+					"Visual Studio": {
+						"msg": null
+					},
+					"Git": {
+						"msg": null
+					},
+					"GitHub": {
+						"msg": null
 					}
 				}
 			}
@@ -397,9 +454,7 @@ var sections =
 				"description": `Going beyond class project requirements, I built a graphical interface for my group's text-based game.
 					This <b>Java</b> project (with no dependencies) is still shown to subsequent classes as a challenge for students
 					to surpass it.`,
-				"more": () => {
-					window.location.href = "https://github.com/Jester565/SpyNinjaGame/blob/master/README.md"
-				},
+				"more": "https://github.com/Jester565/SpyNinjaGame/blob/master/README.md",
 				"tech": {
 					"Java": {
 						"msg": null
@@ -418,6 +473,12 @@ var sections =
 					},
 					"Desktop Application": {
 						"msg": null
+					},
+					"Git": {
+						"msg": null
+					},
+					"GitHub": {
+						"msg": null
 					}
 				}
 			},
@@ -430,9 +491,7 @@ var sections =
 				"description": `Customers order through a web app, sending their location and request to employees in real-time.<br /><br />
 					The front end is powered by a <b>C++ WSS</b> server with a custom login and menu system.  It was my first project to 
 					utilize databases and cloud services.`,
-				"more": () => {
-					window.location.href = "https://github.com/Jester565/BeachBevs/blob/master/README.md"
-				},
+				"more": "https://github.com/Jester565/BeachBevs/blob/master/README.md",
 				"tech": {
 					"Cloud Services": {
 						"msg": null
@@ -475,6 +534,18 @@ var sections =
 					},
 					"Parallel Processing": {
 						"msg": null
+					},
+					"Visual Studio": {
+						"msg": null
+					},
+					"Amazon Web Services (AWS)": {
+						"msg": null
+					},
+					"Git": {
+						"msg": null
+					},
+					"GitHub": {
+						"msg": null
 					}
 				}
 			},
@@ -495,9 +566,7 @@ var sections =
 					utilizes <b>Google Protocol Buffers</b> and <b>Boost.Asio</b> to share world and player information.  A
 					self-made, <b>multithreaded</b> lighting system makes exploring caves much more atmospheric than previous
 					entries.`,
-				"more": () => {
-					window.location.href = "https://github.com/Jester565/Tropadom2/blob/master/README.md"
-				},
+				"more": "https://github.com/Jester565/Tropadom2/blob/master/README.md",
 				"tech": {
 					"C++": {
 						"msg": null
@@ -522,6 +591,15 @@ var sections =
 					},
 					"Parallel Processing": {
 						"msg": null
+					},
+					"Visual Studio": {
+						"msg": null
+					},
+					"Git": {
+						"msg": null
+					},
+					"GitHub": {
+						"msg": null
 					}
 				}
 			}
@@ -545,9 +623,7 @@ var sections =
 				"title": `Battleship`,
 				"description": `Clients join a <b>TCP</b> and <b>UDP</b> server and invite each other to duel in a modified game of Battleship designed to teach trigonometry concepts.
 					Players can communicate via VOIP or text. Both the server and client have no dependencies.`,
-				"more": () => {
-					window.location.href = "https://github.com/Jester565/Battleship/blob/master/README.md"
-				},
+				"more": "https://github.com/Jester565/Battleship/blob/master/README.md",
 				"tech": {
 					"Low Dependencies": {
 						"msg": null
@@ -581,9 +657,7 @@ var sections =
 				"description": ` Go from eating your hunted chicken around a campfire to creating a house filled with pistons, doors, and ladders
 					while your industrial machinery refines your ore. Craft, conquer, and explore this
 					Minecraft-inspired world with 4 biomes and 3 weather modes.`,
-				"more": () => {
-					window.location.href = "https://github.com/Jester565/Tropadom/blob/master/README.md"
-				},
+				"more": "https://github.com/Jester565/Tropadom/blob/master/README.md",
 				"tech": {
 					"Java": {
 						"msg": null
@@ -611,9 +685,7 @@ var sections =
 				"img": `./imgs/stock.png`,
 				"title": `Stock Stuff`,
 				"description": `A <b>serverless</b>, material web application that evaluates and displays the performance of user-specified rules against a stock's history.`,
-				"more": () => {
-					window.location.href = "https://github.com/Jester565/StockStuff/blob/master/README.md"
-				},
+				"more": "https://github.com/Jester565/StockStuff/blob/master/README.md",
 				"tech": {
 					"JavaScript": {
 						"msg": null
@@ -656,6 +728,12 @@ var sections =
 					},
 					"REST": {
 						"msg": null
+					},
+					"Git": {
+						"msg": null
+					},
+					"GitHub": {
+						"msg": null
 					}
 				}
 			},
@@ -665,9 +743,7 @@ var sections =
 				"img": `./imgs/farmer.png`,
 				"title": `Farmer Game`,
 				"description": `A small <b>C++</b> platformer where users must neutralize evil potatoes to reach an elevator going to the surface.  This project, developed over a weekend, showcases the flexibility of my graphics, sound, and lighting libraries.`,
-				"more": () => {
-					window.location.href = "https://github.com/Jester565/FarmerGame/blob/master/README.md"
-				},
+				"more": "https://github.com/Jester565/FarmerGame/blob/master/README.md",
 				"tech": {
 					"C++": {
 						"msg": null
@@ -686,6 +762,12 @@ var sections =
 					},
 					"Front End": {
 						"msg": null
+					},
+					"Git": {
+						"msg": null
+					},
+					"GitHub": {
+						"msg": null
 					}
 				}
 			},
@@ -695,9 +777,7 @@ var sections =
 				"img": `./imgs/ani.png`,
 				"title": `AniCreate`,
 				"description": `Uses <b>Java</b> with <b>FFMPEG</b> to position and rotate images to match capture colored points as they move between frames.`,
-				"more": () => {
-					window.location.href = "https://github.com/Jester565/AniCreate/blob/master/README.md"
-				},
+				"more": "https://github.com/Jester565/AniCreate/blob/master/README.md",
 				"tech": {
 					"Java": {
 						"msg": null
@@ -713,6 +793,12 @@ var sections =
 					},
 					"Front End": {
 						"msg": null
+					},
+					"Git": {
+						"msg": null
+					},
+					"GitHub": {
+						"msg": null
 					}
 				}
 			},
@@ -723,9 +809,7 @@ var sections =
 				"img": `./imgs/conkagar.png`,
 				"title": "Conkagar",
 				"description": `This was my first personal project.  It featured crafting, fighting, and some building.  Most importantly, it served as an introduction to object-oriented programming and data structures.`,
-				"more": () => {
-					window.location.href = "https://github.com/Jester565/Conkagar/blob/master/README.md"
-				}
+				"more": "https://github.com/Jester565/Conkagar/blob/master/README.md"
 			}
 		]
 	}
@@ -755,7 +839,12 @@ function toCards(elms, cardWidth) {
 		var actionHtml = ``;
 		for (var action of elm.actions) {
 			console.log("ID: ", `${elm.title.toLowerCase().replace(/ /g,'')}${action.text}Button`);
-			actionHtml += `<a id="${elm.title.toLowerCase().replace(/ /g,'')}${action.text}Button" class="cardButton">${action.text}</a>`;
+			if (action.href != null) {
+				actionHtml += `<a id="${elm.title.toLowerCase().replace(/ /g,'')}${action.text}Button" href="${action.href}" class="cardButton">${action.text}</a>`;
+			}
+			else {
+				actionHtml += `<a id="${elm.title.toLowerCase().replace(/ /g,'')}${action.text}Button" class="cardButton">${action.text}</a>`;
+			}
 		}
 		var imgHtml = ``;
 		if (elm.img != null) {
@@ -808,7 +897,7 @@ function updateSearch(techs, elms) {
 			if (elm.more != null) {
 				actions.push({
 					"text": "More",
-					"handler": elm.more
+					"href": elm.more
 				});
 			}
 			if (!elm.extra) {
@@ -835,7 +924,9 @@ function updateSearch(techs, elms) {
 	$('#searchResults').append(resultHtml);
 	for (var cardInfo of cardInfos) {
 		for (var action of cardInfo.actions) {
-			$(`#${cardInfo.title.toLowerCase().replace(/ /g,'')}${action.text}Button`).click(action.handler);
+			if (action.handler != null) {
+				$(`#${cardInfo.title.toLowerCase().replace(/ /g,'')}${action.text}Button`).click(action.handler);
+			}
 		}
 	}
 	//Paralax position are updated when height changes
@@ -885,7 +976,7 @@ $(function() {
 				}
 				var button = `<br /><br />`;
 				if (elm.more != null) {
-					button = `<a id="${elm.title.toLowerCase().replace(/ /g,'')}More" class="bnt-more" href="javascript:void(0)">More</a>`;
+					button = `<a id="${elm.title.toLowerCase().replace(/ /g,'')}More" class="bnt-more" href="${elm.more}">More</a>`;
 				}
 
 				timelineHtml += `
@@ -918,7 +1009,7 @@ $(function() {
 					"actions": [
 						{
 							"text": "More",
-							"action": elm.more
+							"href": elm.more
 						}
 					],
 					"endDate": elm.endDate
@@ -942,11 +1033,6 @@ $(function() {
 					techs[tech] = [];
 				}
 				techs[tech].push(elm.title);
-			}
-			if (elm.more != null) {
-				$(`#${elm.title.toLowerCase().replace(/ /g,'')}More`).click(elm.more);
-				console.log("HANDLER: ", `#${elm.title.toLowerCase().replace(/ /g,'')}MoreButton`);
-				$(`#${elm.title.toLowerCase().replace(/ /g,'')}MoreButton`).click(elm.more);
 			}
 		}
 	}
